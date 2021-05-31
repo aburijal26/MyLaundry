@@ -1,0 +1,107 @@
+ERROR - 2021-05-29 05:59:27 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2021-05-29 05:59:27 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 W:\WORK\MYLAUNDRY\mylaundry\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 W:\WORK\MYLAUNDRY\mylaundry\app\Models\LoginModel.php(14): CodeIgniter\Database\BaseConnection->query('SELECT * FROM a...')
+#2 W:\WORK\MYLAUNDRY\mylaundry\app\Controllers\Login.php(22): App\Models\LoginModel->adminLogin('username1', 'admin123')
+#3 W:\WORK\MYLAUNDRY\mylaundry\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->auth()
+#4 W:\WORK\MYLAUNDRY\mylaundry\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 W:\WORK\MYLAUNDRY\mylaundry\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 W:\WORK\MYLAUNDRY\mylaundry\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 W:\WORK\MYLAUNDRY\mylaundry\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('W:\\WORK\\MYLAUND...')
+#8 {main}
+ERROR - 2021-05-29 07:10:12 --> Unknown column 'NamaPemesan' in 'field list'
+CRITICAL - 2021-05-29 07:10:12 --> Unknown column 'NamaPemesan' in 'field list'
+#0 W:\WORK\MYLAUNDRY\mylaundry\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `pe...')
+#1 W:\WORK\MYLAUNDRY\mylaundry\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 W:\WORK\MYLAUNDRY\mylaundry\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 W:\WORK\MYLAUNDRY\mylaundry\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 W:\WORK\MYLAUNDRY\mylaundry\app\Models\PemesananModel.php(48): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 W:\WORK\MYLAUNDRY\mylaundry\app\Controllers\Pemesanan.php(95): App\Models\PemesananModel->saveData(Array)
+#6 W:\WORK\MYLAUNDRY\mylaundry\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Pemesanan->create()
+#7 W:\WORK\MYLAUNDRY\mylaundry\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+#8 W:\WORK\MYLAUNDRY\mylaundry\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 W:\WORK\MYLAUNDRY\mylaundry\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 W:\WORK\MYLAUNDRY\mylaundry\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('W:\\WORK\\MYLAUND...')
+#11 {main}
+ERROR - 2021-05-29 07:11:13 --> Unknown column 'NomorTlp' in 'field list'
+CRITICAL - 2021-05-29 07:11:13 --> Unknown column 'NomorTlp' in 'field list'
+#0 W:\WORK\MYLAUNDRY\mylaundry\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `pe...')
+#1 W:\WORK\MYLAUNDRY\mylaundry\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 W:\WORK\MYLAUNDRY\mylaundry\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 W:\WORK\MYLAUNDRY\mylaundry\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 W:\WORK\MYLAUNDRY\mylaundry\app\Models\PemesananModel.php(48): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 W:\WORK\MYLAUNDRY\mylaundry\app\Controllers\Pemesanan.php(94): App\Models\PemesananModel->saveData(Array)
+#6 W:\WORK\MYLAUNDRY\mylaundry\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Pemesanan->create()
+#7 W:\WORK\MYLAUNDRY\mylaundry\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+#8 W:\WORK\MYLAUNDRY\mylaundry\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 W:\WORK\MYLAUNDRY\mylaundry\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 W:\WORK\MYLAUNDRY\mylaundry\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('W:\\WORK\\MYLAUND...')
+#11 {main}
+CRITICAL - 2021-05-29 07:12:34 --> Undefined variable: NomorTlp
+#0 W:\WORK\MYLAUNDRY\mylaundry\app\Views\users\form_pemesanan.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'W:\\WORK\\MYLAUND...', 41, Array)
+#1 W:\WORK\MYLAUNDRY\mylaundry\vendor\codeigniter4\framework\system\View\View.php(230): include('W:\\WORK\\MYLAUND...')
+#2 W:\WORK\MYLAUNDRY\mylaundry\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 W:\WORK\MYLAUNDRY\mylaundry\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('users/form_peme...', Array, true)
+#4 W:\WORK\MYLAUNDRY\mylaundry\app\Controllers\Pemesanan.php(99): view('users/form_peme...', Array)
+#5 W:\WORK\MYLAUNDRY\mylaundry\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Pemesanan->create()
+#6 W:\WORK\MYLAUNDRY\mylaundry\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+#7 W:\WORK\MYLAUNDRY\mylaundry\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 W:\WORK\MYLAUNDRY\mylaundry\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 W:\WORK\MYLAUNDRY\mylaundry\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('W:\\WORK\\MYLAUND...')
+#10 {main}
+ERROR - 2021-05-29 11:19:59 --> Unknown column 'NomorTlp' in 'field list'
+CRITICAL - 2021-05-29 11:19:59 --> Unknown column 'NomorTlp' in 'field list'
+#0 W:\WORK\MYLAUNDRY\mylaundry\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `pe...')
+#1 W:\WORK\MYLAUNDRY\mylaundry\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 W:\WORK\MYLAUNDRY\mylaundry\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 W:\WORK\MYLAUNDRY\mylaundry\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 W:\WORK\MYLAUNDRY\mylaundry\app\Models\PemesananModel.php(48): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 W:\WORK\MYLAUNDRY\mylaundry\app\Controllers\Pemesanan.php(97): App\Models\PemesananModel->saveData(Array)
+#6 W:\WORK\MYLAUNDRY\mylaundry\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Pemesanan->create()
+#7 W:\WORK\MYLAUNDRY\mylaundry\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+#8 W:\WORK\MYLAUNDRY\mylaundry\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 W:\WORK\MYLAUNDRY\mylaundry\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 W:\WORK\MYLAUNDRY\mylaundry\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('W:\\WORK\\MYLAUND...')
+#11 {main}
+ERROR - 2021-05-29 11:20:47 --> Cannot add or update a child row: a foreign key constraint fails (`db_laundry`.`pemesanan`, CONSTRAINT `Pemesanan_Admin_FK` FOREIGN KEY (`IDAdmin`) REFERENCES `admin` (`IDAdmin`))
+CRITICAL - 2021-05-29 11:20:47 --> Cannot add or update a child row: a foreign key constraint fails (`db_laundry`.`pemesanan`, CONSTRAINT `Pemesanan_Admin_FK` FOREIGN KEY (`IDAdmin`) REFERENCES `admin` (`IDAdmin`))
+#0 W:\WORK\MYLAUNDRY\mylaundry\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `pe...')
+#1 W:\WORK\MYLAUNDRY\mylaundry\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 W:\WORK\MYLAUNDRY\mylaundry\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 W:\WORK\MYLAUNDRY\mylaundry\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 W:\WORK\MYLAUNDRY\mylaundry\app\Models\PemesananModel.php(48): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 W:\WORK\MYLAUNDRY\mylaundry\app\Controllers\Pemesanan.php(96): App\Models\PemesananModel->saveData(Array)
+#6 W:\WORK\MYLAUNDRY\mylaundry\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Pemesanan->create()
+#7 W:\WORK\MYLAUNDRY\mylaundry\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+#8 W:\WORK\MYLAUNDRY\mylaundry\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 W:\WORK\MYLAUNDRY\mylaundry\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 W:\WORK\MYLAUNDRY\mylaundry\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('W:\\WORK\\MYLAUND...')
+#11 {main}
+CRITICAL - 2021-05-29 12:26:16 --> Call to undefined method App\Models\PemesananModel::generateCodeDelivery
+#0 W:\WORK\MYLAUNDRY\mylaundry\app\Models\PemesananModel.php(51): CodeIgniter\Model->__call('generateCodeDel...', Array)
+#1 W:\WORK\MYLAUNDRY\mylaundry\app\Controllers\Pemesanan.php(113): App\Models\PemesananModel->saveData2(Array, Array, Array)
+#2 W:\WORK\MYLAUNDRY\mylaundry\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Pemesanan->create()
+#3 W:\WORK\MYLAUNDRY\mylaundry\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+#4 W:\WORK\MYLAUNDRY\mylaundry\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 W:\WORK\MYLAUNDRY\mylaundry\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 W:\WORK\MYLAUNDRY\mylaundry\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('W:\\WORK\\MYLAUND...')
+#7 {main}
+CRITICAL - 2021-05-29 12:34:56 --> Undefined property: stdClass::$NamaPemesan
+#0 W:\WORK\MYLAUNDRY\mylaundry\app\Controllers\Pemesanan.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'W:\\WORK\\MYLAUND...', 52, Array)
+#1 W:\WORK\MYLAUNDRY\mylaundry\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Pemesanan->ajax_list()
+#2 W:\WORK\MYLAUNDRY\mylaundry\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+#3 W:\WORK\MYLAUNDRY\mylaundry\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 W:\WORK\MYLAUNDRY\mylaundry\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 W:\WORK\MYLAUNDRY\mylaundry\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('W:\\WORK\\MYLAUND...')
+#6 {main}
+CRITICAL - 2021-05-29 12:35:06 --> Undefined property: stdClass::$NamaPemesan
+#0 W:\WORK\MYLAUNDRY\mylaundry\app\Controllers\Pemesanan.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'W:\\WORK\\MYLAUND...', 52, Array)
+#1 W:\WORK\MYLAUNDRY\mylaundry\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Pemesanan->ajax_list()
+#2 W:\WORK\MYLAUNDRY\mylaundry\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+#3 W:\WORK\MYLAUNDRY\mylaundry\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 W:\WORK\MYLAUNDRY\mylaundry\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 W:\WORK\MYLAUNDRY\mylaundry\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('W:\\WORK\\MYLAUND...')
+#6 {main}

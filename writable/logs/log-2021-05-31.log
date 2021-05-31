@@ -1,0 +1,98 @@
+ERROR - 2021-05-31 07:28:43 --> Duplicate entry 'PS0001' for key 'PRIMARY'
+CRITICAL - 2021-05-31 07:28:43 --> Duplicate entry 'PS0001' for key 'PRIMARY'
+#0 C:\xampp\htdocs\mylaundry\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `pe...')
+#1 C:\xampp\htdocs\mylaundry\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\mylaundry\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\mylaundry\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\mylaundry\app\Models\PemesananModel.php(49): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\mylaundry\app\Controllers\Pemesanan.php(132): App\Models\PemesananModel->saveData(Array, Array, Array)
+#6 C:\xampp\htdocs\mylaundry\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Pemesanan->create()
+#7 C:\xampp\htdocs\mylaundry\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+#8 C:\xampp\htdocs\mylaundry\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\mylaundry\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\mylaundry\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-05-31 07:29:05 --> Duplicate entry 'PS0001' for key 'PRIMARY'
+CRITICAL - 2021-05-31 07:29:05 --> Duplicate entry 'PS0001' for key 'PRIMARY'
+#0 C:\xampp\htdocs\mylaundry\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `pe...')
+#1 C:\xampp\htdocs\mylaundry\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\mylaundry\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\mylaundry\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\mylaundry\app\Models\PemesananModel.php(49): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\mylaundry\app\Controllers\Pemesanan.php(132): App\Models\PemesananModel->saveData(Array, Array, Array)
+#6 C:\xampp\htdocs\mylaundry\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Pemesanan->create()
+#7 C:\xampp\htdocs\mylaundry\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+#8 C:\xampp\htdocs\mylaundry\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\mylaundry\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\mylaundry\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-05-31 07:30:10 --> Duplicate entry 'PS0001' for key 'PRIMARY'
+CRITICAL - 2021-05-31 07:30:10 --> Duplicate entry 'PS0001' for key 'PRIMARY'
+#0 C:\xampp\htdocs\mylaundry\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `pe...')
+#1 C:\xampp\htdocs\mylaundry\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\mylaundry\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\mylaundry\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\mylaundry\app\Models\PemesananModel.php(49): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\mylaundry\app\Controllers\Pemesanan.php(132): App\Models\PemesananModel->saveData(Array, Array, Array)
+#6 C:\xampp\htdocs\mylaundry\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Pemesanan->create()
+#7 C:\xampp\htdocs\mylaundry\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+#8 C:\xampp\htdocs\mylaundry\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\mylaundry\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\mylaundry\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-05-31 07:30:18 --> Duplicate entry 'PS0001' for key 'PRIMARY'
+CRITICAL - 2021-05-31 07:30:18 --> Duplicate entry 'PS0001' for key 'PRIMARY'
+#0 C:\xampp\htdocs\mylaundry\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `pe...')
+#1 C:\xampp\htdocs\mylaundry\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\mylaundry\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\mylaundry\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\mylaundry\app\Models\PemesananModel.php(49): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\mylaundry\app\Controllers\Pemesanan.php(132): App\Models\PemesananModel->saveData(Array, Array, Array)
+#6 C:\xampp\htdocs\mylaundry\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Pemesanan->create()
+#7 C:\xampp\htdocs\mylaundry\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+#8 C:\xampp\htdocs\mylaundry\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\mylaundry\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\mylaundry\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-05-31 07:32:23 --> Duplicate entry 'PS0001' for key 'PRIMARY'
+CRITICAL - 2021-05-31 07:32:23 --> Duplicate entry 'PS0001' for key 'PRIMARY'
+#0 C:\xampp\htdocs\mylaundry\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `pe...')
+#1 C:\xampp\htdocs\mylaundry\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\mylaundry\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\mylaundry\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\mylaundry\app\Models\PemesananModel.php(49): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\mylaundry\app\Controllers\Pemesanan.php(132): App\Models\PemesananModel->saveData(Array, Array, Array)
+#6 C:\xampp\htdocs\mylaundry\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Pemesanan->create()
+#7 C:\xampp\htdocs\mylaundry\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+#8 C:\xampp\htdocs\mylaundry\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\mylaundry\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\mylaundry\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-05-31 07:33:16 --> Duplicate entry 'PS0001' for key 'PRIMARY'
+CRITICAL - 2021-05-31 07:33:16 --> Duplicate entry 'PS0001' for key 'PRIMARY'
+#0 C:\xampp\htdocs\mylaundry\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `pe...')
+#1 C:\xampp\htdocs\mylaundry\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\mylaundry\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\mylaundry\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\mylaundry\app\Models\PemesananModel.php(49): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\mylaundry\app\Controllers\Pemesanan.php(132): App\Models\PemesananModel->saveData(Array, Array, Array)
+#6 C:\xampp\htdocs\mylaundry\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Pemesanan->create()
+#7 C:\xampp\htdocs\mylaundry\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+#8 C:\xampp\htdocs\mylaundry\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\mylaundry\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\mylaundry\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-05-31 07:35:06 --> Duplicate entry 'PS0001' for key 'PRIMARY'
+CRITICAL - 2021-05-31 07:35:06 --> Duplicate entry 'PS0001' for key 'PRIMARY'
+#0 C:\xampp\htdocs\mylaundry\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `pe...')
+#1 C:\xampp\htdocs\mylaundry\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\mylaundry\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\mylaundry\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\mylaundry\app\Models\PemesananModel.php(49): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\mylaundry\app\Controllers\Pemesanan.php(132): App\Models\PemesananModel->saveData(Array, Array, Array)
+#6 C:\xampp\htdocs\mylaundry\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Pemesanan->create()
+#7 C:\xampp\htdocs\mylaundry\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+#8 C:\xampp\htdocs\mylaundry\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\mylaundry\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\mylaundry\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
